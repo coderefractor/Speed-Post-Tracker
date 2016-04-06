@@ -2,11 +2,13 @@
 
 A nifty library to provide easy access to [track Speed Post online](http://www.dtdctrack.in/speed-post-tracking-india-post-track/) or EMS India Post packages. This can be used in your website or App which uses PHP in it's backend. You can also create a request-response system for cross-language compatibility.
 
-It is a general brand name for accelerated delivery services provided by inpependant companies. There are 3 different types of Speed Post carriers:
+It is a general brand name for accelerated delivery services provided by independent companies. India Post tracking module is used in a lots of corporate websites and eCommerce portals. They directly lease the API from the postal network. However thanks to MyGov, it is now available for the general public at free of cost. So whether you are developing a personal education project or a large commercial project, this library can help you simplify the task of building a tracking mobile.
 
-1. India Post EMS: India Post has been affiliated with international EMS network to provide a common tracking portal for all your parcels.
-2. International: International Speed Post provides courier services outside of India. 
-3. Singapore Post: This is a completely unrelated carrier which is based in Singapore.
+There are 3 different types of Speed Post carriers:
+
+1. **India Post EMS:** India Post has been affiliated with international EMS network to provide a common tracking portal for all your parcels.
+2. **International:** International Speed Post provides courier services outside of India. 
+3. **Singapore Post:** This is a completely unrelated carrier which is based in Singapore. This carrier is not supported by our library. However, we wish to add support in future.
 
 ## How Does it Work?
 
