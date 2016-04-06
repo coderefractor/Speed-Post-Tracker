@@ -1,6 +1,6 @@
 # Speed Post Tracking
 
-A nifty library to provide easy access to track Speed Post or EMS India Post packages.
+A nifty library to provide easy access to [track Speed Post online](http://www.dtdctrack.in/speed-post-tracking-india-post-track/) or EMS India Post packages. This can be used in your website or App which uses PHP in it's backend. You can also create a request-response system for cross-language compatibility.
 
 It is a general brand name for accelerated delivery services provided by inpependant companies. There are 3 different types of Speed Post carriers:
 
