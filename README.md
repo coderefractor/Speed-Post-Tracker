@@ -1,8 +1,8 @@
 # Speed Post Tracking
 
-A nifty library to provide easy access to [track Speed Post online](http://www.dtdctrack.in/speed-post-tracking-india-post-track/) or EMS India Post packages. This can be used in your website or App which uses PHP in it's backend. You can also create a request-response system for cross-language compatibility.
+A unofficial guide on how to [track Speed Post online](http://www.dtdctrack.in/speed-post-tracking-india-post-track/) or EMS India Post packages. This can be used in your website or application or just a user. Note: This doesn't contain any code for integration.
 
-It is a general brand name for accelerated delivery services provided by independent companies. India Post tracking module is used in a lots of corporate websites and eCommerce portals. They directly lease the API from the postal network. However thanks to MyGov, it is now available for the general public at free of cost. So whether you are developing a personal education project or a large commercial project, this library can help you simplify the task of building a tracking mobile.
+It is a general brand name for accelerated delivery services provided by Postal Department. India Post tracking module is used in a lots of corporate websites and eCommerce portals. They directly have access to API from the postal network. However, it is not open to the public. You need to contact them in order to request access.
 
 There are 3 different types of Speed Post carriers:
 
@@ -10,11 +10,10 @@ There are 3 different types of Speed Post carriers:
 2. **International:** International Speed Post provides courier services outside of India. 
 3. **Singapore Post:** This is a completely unrelated carrier which is based in Singapore. This carrier is not supported by our library. However, we wish to add support in future.
 
-## How Does it Work?
+##Ways to Implement Tracking
 
-This library uses a simple and straight-forward procedure to provide tracking features. In the first initialization step, it connects with the API service (This is in configurable based on your end point. Next, the track package call takes two parameters namely tracking number and carrier as input.
+Because there is no official API, you can perform screen scraping. However, it is critical that you obtain consent from them before actually scraping as it may violate their terms. Screen scraping of it's website is not straightforward either. It has a captcha system which needs to be manually entered. This method is not generally recommended.
 
-Once you provide these details and make the call, it queries the API server and fetches the JSON response. The JSON response is then parsed and converted into a plaintext array. This data is returned to the caller.
+The other way is to integrate third party websites like Aftership, Easypost, e.t.c which already provide an API for Speed Post status checking. You need to sign up for their services and use their official integration guide for help.
 
-
-This is possible through the [My Government](https://mygov.in/) initiative of the Indian I.T ministry. It provides datasets and APIs for gathering public data for free.
+Let's hope in the future that they release an official API for public usage.
